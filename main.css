@@ -48,15 +48,23 @@ h1{
 }
 
 .legs {
+
+    height: 50%;
     width: 100%;
 }
 
 .snail {
-    width: 100%;
+    position: absolute;
+    
+    width: 50%;
+    height: 70.4%;
 }
 
 .water {
-    width: 100%;
+
+    float: right;
+    width: 50%;
+    height: 50%;
 }
 
 .contactinfo {color: black;
@@ -72,4 +80,10 @@ h1{
 .contactinfo>a {
     text-decoration: none;
     color: black;
+}
+
+.yeet{color:black; 
+     font-size: 500%;
+    position: absolute;
+    margin-top: 20%;
 }
